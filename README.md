@@ -1,2 +1,5 @@
 # web-design
-based on template and vue
+首页：index.html
+
+GitHub地址：www.github.com/Qwesh157/web-design
+
