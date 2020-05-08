@@ -58,7 +58,7 @@
 			</div>
 
 			<div class="fh5co-narrow-content" id="app1">
-				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">文章</h2>
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">小知识</h2>
 				<div class="row">
 					<div class="col-md-6" v-for="item in list">
 						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
@@ -79,9 +79,6 @@
 				<div class="fh5co-narrow-content">
 					<div class="owl-carousel-fullwidth animate-box" data-animate-effect="fadeInLeft">
 						<div class="item" v-for="item in array">
-							<figure>
-								<img :src="item.src">
-							</figure>
 							<p class="text-center quote">&ldquo;{{item.text}}&rdquo;
 								<cite class="author">&mdash;{{item.author}}</cite>
 							</p>
@@ -142,6 +139,7 @@
 	<script src="js/main.js"></script>
 	<!--Vue JS-->
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 	<script src="js/vue.js"></script>
 </body>
 

@@ -1,225 +1,195 @@
 var app = new Vue({
-    el:'#app',
-    data:{
-        arr:[
+    el: '#app',
+    data: {
+        arr: [
             {
-                href:'./html/single.html',
-                src:'./images/work_1.jpg',
-                title:'标题',
-                subtitle:'副标题'
+                href: './html/single1.html',
+                src: './images/1_0.jpg',
+                title: '鱼米之乡,丝绸之府',
+                subtitle: '乌镇'
             },
             {
-                href:'./html/single.html',
-                src:'./images/work_2.jpg',
-                title:'标题',
-                subtitle:'副标题'
+                href: './html/single2.html',
+                src: './images/2_0.jpg',
+                title: '曲艺',
+                subtitle: '皮影戏'
             },
             {
-                href:'./html/single.html',
-                src:'./images/work_3.jpg',
-                title:'标题',
-                subtitle:'副标题'
+                href: './html/single3.html',
+                src: './images/3_0.jpg',
+                title: '古建筑',
+                subtitle: '长城'
             },
             {
-                href:'./html/single.html',
-                src:'./images/work_4.jpg',
-                title:'标题',
-                subtitle:'副标题'
+                href: './html/single4.html',
+                src: './images/4_0.jpg',
+                title: '四大发明',
+                subtitle: ''
             },
             {
-                href:'./html/single.html',
-                src:'./images/work_5.jpg',
-                title:'标题',
-                subtitle:'副标题'
+                href: './html/single5.html',
+                src: './images/5_0.jpg',
+                title: '中国画',
+                subtitle: '水墨画'
             },
             {
-                href:'./html/single.html',
-                src:'./images/work_6.jpg',
-                title:'标题',
-                subtitle:'副标题'
+                href: './html/single6.html',
+                src: './images/6_0.jpg',
+                title: '戏曲',
+                subtitle: '京剧'
             },
             {
-                href:'./html/single.html',
-                src:'./images/work_7.jpg',
-                title:'标题',
-                subtitle:'副标题'
+                href: './html/single7.html',
+                src: './images/7_0.jpg',
+                title: '中国菜',
+                subtitle: ''
             },
             {
-                href:'./html/single.html',
-                src:'./images/work_8.jpg',
-                title:'标题',
-                subtitle:'副标题'
+                href: './html/single8.html',
+                src: './images/8_0.jpg',
+                title: '中国文化',
+                subtitle: '书院'
             },
             {
-                href:'./html/single.html',
-                src:'./images/work_9.jpg',
-                title:'标题',
-                subtitle:'副标题'
+                href: './html/single9.html',
+                src: './images/9_0.jpg',
+                title: '古典文化',
+                subtitle: '四大名著'
             },
             {
-                href:'./html/single.html',
-                src:'./images/work_10.jpg',
-                title:'标题',
-                subtitle:'副标题'
+                href: './html/single10.html',
+                src: './images/10_0.jpg',
+                title: '传统棋艺',
+                subtitle: ''
             },
             {
-                href:'./html/single.html',
-                src:'./images/work_11.jpg',
-                title:'标题',
-                subtitle:'副标题'
+                href: './html/single11.html',
+                src: './images/11_0.jpg',
+                title: '体育文化',
+                subtitle: '武术'
             },
             {
-                href:'./html/single.html',
-                src:'./images/work_12.jpg',
-                title:'标题',
-                subtitle:'副标题'
-            },
-            {
-                href:'./html/single.html',
-                src:'./images/work_13.jpg',
-                title:'标题',
-                subtitle:'副标题'
-            },
-            {
-                href:'./html/single.html',
-                src:'./images/work_14.jpg',
-                title:'标题',
-                subtitle:'副标题'
-            },
-            {
-                href:'./html/single.html',
-                src:'./images/work_15.jpg',
-                title:'标题',
-                subtitle:'副标题'
-            },
-            {
-                href:'./html/single.html',
-                src:'./images/work_16.jpg',
-                title:'标题',
-                subtitle:'副标题'
-            },
+                href: './html/single12.html',
+                src: './images/12_0.jpg',
+                title: '宗教文化',
+                subtitle: '教派'
+            }
         ]
     }
 })
 var app1 = new Vue({
-    el:'#app1',
-    data:{
-        list:[
+    el: '#app1',
+    data: {
+        list: [
             {
-                class:'icon-search',
-                title:'标题',
-                text:'正文'
+                class: 'icon-tag',
+                title: '古代年龄称呼',
+                text: '不满周岁——襁褓；10岁以下——黄口；20岁——弱冠；30岁——而立之年；40岁——不惑之年；50岁——年逾半百、知命之年、大衍之年；60岁——花甲、耳顺之年；70岁——古稀之年；80岁——杖朝之年、中寿；80~90岁——耄耋之年；'
             },
             {
-                class:'icon-search',
-                title:'标题',
-                text:'正文'
+                class: 'icon-tag',
+                title: '纪时法',
+                text: '古人纪时用地支表示十二个时辰，每个时辰相当于两小时。从二十三点（即夜十一点）起至夜一点 配子，依次顺推，前一个时辰为初，后一个时辰为正，这样也就等于将一昼夜十二个时辰分成二十四小时辰。'
             },
             {
-                class:'icon-search',
-                title:'标题',
-                text:'正文'
+                class: 'icon-tag',
+                title: '二十四节气',
+                text: '廿四节气分别为：立春、雨水、惊蛰、春分、清明、谷雨、立夏、小满、芒种、夏至、小暑、大暑、立秋、处暑、白露、秋分、寒露、霜降、立冬、小雪、大雪、冬至、小寒、大寒。'
             },
             {
-                class:'icon-search',
-                title:'标题',
-                text:'正文'
+                class: 'icon-tag',
+                title: '礼俗',
+                text: '握手礼仪：双方各自伸出右手,彼此间保持一米左右的距离,手掌略向前下方伸直,右手四指并拢,拇指向上,掌心向左，手的高度大致与腰部平齐，手握住对方时，应面带微笑地注视对方，彼此应寒暄几句。'
             }
         ]
     }
 })
 var app2 = new Vue({
-    el:'#app2',
-    data:{
-        array:[
+    el: '#app2',
+    data: {
+        array: [
             {
-                src:'images/testimonial_person2.jpg',
-                text:'正文',
-                author:'作者'
-            },{
-                src:'images/testimonial_person2.jpg',
-                text:'正文',
-                author:'作者'
-            },{
-                src:'images/testimonial_person2.jpg',
-                text:'正文',
-                author:'作者'
+                text: '一定的文化（当作观念形态的文化）是一定社会的政治和经济的反映，又经予伟大影响和作用于一定社会垢政治和经济。',
+                author: '毛泽东'
+            }, {
+                text: '人是文化的创造者，也是文化的宗旨。',
+                author: '高尔基'
+            }, {
+                text: '文化虽然不像文明那样具有地区的广泛性，但是，它相应地和各个国家的每一个人的喜、怒、哀、乐具有更深刻的联系。',
+                author: '森谷正规'
             }
         ]
     }
 })
 var app3 = new Vue({
-    el:'#app3',
-    data:{
-        list:[
+    el: '#app3',
+    data: {
+        list: [
             {
-                from:0,
-                to:100,
-                id:'类型'
-            },{
-                from:0,
-                to:100,
-                id:'类型'
-            },{
-                from:0,
-                to:100,
-                id:'类型'
+                from: 0,
+                to: 3715,
+                id: '从有文字的中国历史'
+            }, {
+                from: 0,
+                to: 55,
+                id: '中国世界遗产数量'
+            }, {
+                from: 0,
+                to: 44485,
+                id: '中国文化馆数量'
             }
         ]
     }
 })
 var app4 = new Vue({
-    el:'#app4',
-    data:{
-        list:[
+    el: '#app4',
+    data: {
+        list: [
             {
-                src:'images/person3.jpg',
-                title:'标题',
-                subtitle:'副标题',
-                text:'正文'
+                title: '张维为',
+                subtitle: '复旦大学中国研究院院长',
+                text: '走遍全世界，中国人就是世界上最勤劳的人民，2000多年前老子就讲天道酬勤，中国人创造的与勤劳有关的词汇几乎都是褒义的，如勤奋、勤快、勤勉、勤俭、勤恳等等，中国今天的成功就是一代接一代的中国人共同拼打出来的。所以，吃苦耐劳、奋发向上、坚毅不拔，这些中国人的文化特质托起了这个伟大国家的崛起。'
             },
             {
-                src:'images/person3.jpg',
-                title:'标题',
-                subtitle:'副标题',
-                text:'正文'
+                title: '习近平主席',
+                subtitle: '习近平总书记在“7·26”重要讲话中指出',
+                text: '“中国特色社会主义是改革开放以来党的全部理论和实践的主题”，要求全党必须“牢固树立中国特色社会主义道路自信、理论自信、制度自信、文化自信，确保党和国家事业始终沿着正确方向胜利前进”。在“四个自信”中，文化自信是更基础、更广泛、更深厚的自信，是更基本、更深沉、更持久的力量。十八大以来，习近平反复强调文化自信，从中国特色社会主义事业全局的高度作出许多深刻阐述。'
             },
             {
-                src:'images/person3.jpg',
-                title:'标题',
-                subtitle:'副标题',
-                text:'正文'
+                title: '王蒙',
+                subtitle: '著名作家、原文化部部长',
+                text: '中华传统是一个开放的传统，并不是一个封闭的传统，“中国早在晋唐时期就开始大量受到佛教思想的影响，佛教思想也在中国本土化了，出现了禅宗这样的智慧，而不是以绝对的信仰为特色的佛教流派。”及至近现代，诞生于西方的马克思主义，影响了中国的现实、中国的历史，改变了中国的面貌。中国的革命家、有志者，尤其是中国共产党的领导人，发展了马克思主义，并且使它越来越本土化、大众化和时代化。'
             }
         ]
     }
 })
 var app5 = new Vue({
-    el:'#app5',
-    data:{
-        lists:[
+    el: '#app5',
+    data: {
+        lists: [
             {
-                src:'images/img_1.jpg',
-                title:'标题',
-                subtitle:'正文1',
-                text:'正文2'
+                src: 'images/img_2.jpg',
+                title: '习近平的重要讲话',
+                subtitle: '中国共产党在提出三个自信之后，习近平总书记再次强调文化自信的重要性。',
+                text: '在当天的讲话中，习近平总书记指出，“文化自信，是更基础、更广泛、更深厚的自信。在5000多年文明发展中孕育的中华优秀传统文化，在党和人民伟大斗争中孕育的革命文化和社会主义先进文化，积淀着中华民族最深层的精神追求，代表着中华民族独特的精神标识。我们要弘扬社会主义核心价值观，弘扬以爱国主义为核心的民族精神和以改革创新为核心的时代精神，不断增强全党全国各族人民的精神力量。”'
             },
             {
-                src:'images/img_1.jpg',
-                title:'标题',
-                subtitle:'正文1',
-                text:'正文2'
+                src: 'images/img_3.jpg',
+                title: '文化和旅游',
+                subtitle: '2020年“五一”小长假全国共接待游客1.15亿人次',
+                text: '“武汉战疫”微信小程序上线了“热点区域客流量”新功能，游客可实时查看黄鹤楼、汉口江滩、东湖绿道、楚河汉街等市内14个热门景区、热门商圈的当日客流量，提示各景区饱和度趋势。云台山景区在景区入口处开通直达单个景点的专线车，由智慧平台分析各景点客流情况后发布指令，调度专线车按指定线路运行，引导游客避开热门景点，实现科学分流;借助智慧旅游管理系统，提前预警分析客流趋势，在客流达到预警线时，景区调集公安、交警在高速路口、重点路段启动分流劝返，在达到满员后，关闭前往景区通道。龙门景区充分利用智慧平台，统筹指挥景区各项管理和游客接待工作。利用“健康码”验码关口前移，减轻检票口压力。同时通过采取无接触服务、优化服务质量、党员志愿者服务等措施，确保旅游秩序的安全有序。'
             },
             {
-                src:'images/img_1.jpg',
-                title:'标题',
-                subtitle:'正文1',
-                text:'正文2'
+                src: 'images/img_4.jpg',
+                title: '文艺抗疫',
+                subtitle: '仰光中国文化中心推出“文艺抗疫：笔墨戎装·美术担当”栏目',
+                text: '为助力全球抗疫，4月28日，仰光中国文化中心携手云南画院在中心新媒体平台推出“文艺抗疫：笔墨戎装 美术担当”栏目。云南画院充分发挥美术工作者的专业优势，积极行动，用手中的画笔创作出千余幅抗疫美术作品。这些作品形式多样，内涵丰富，包括了国画、油画、书版画、水彩、儿童画等。作品主题聚焦身边生活，生动展现疫情下中国的社会民生，讴歌典型事迹，歌颂感人场面，弘扬大爱精神，鼓舞民众斗志。'
             },
             {
-                src:'images/img_1.jpg',
-                title:'标题',
-                subtitle:'正文1',
-                text:'正文2'
+                src: 'images/img_5.jpg',
+                title: '跨越时空的抗疫',
+                subtitle: '——中英艺术家线上义演支援英国抗疫',
+                text: '　4月以来，英国新冠肺炎疫情形势日益严峻，英国国家医疗服务系统（NHS）面临空前压力。为向医护人员表示感激，每周四晚8点，“深居简出”的英国民众都会相约在自家门前、阳台或花园为抗疫一线的医护人员鼓掌加油。而就在这些特别的日子里，中英艺术家们也携手共同举办多场艺术公益演出、支援英国NHS医疗系统。'
             }
         ]
     }
