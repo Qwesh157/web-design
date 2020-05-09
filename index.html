@@ -32,13 +32,13 @@
 </head>
 
 <body>
-	<div id="fh5co-page">
-		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
-			<h1 id="fh5co-logo"><a href="index.html"><img src="images/logo-colored.png"
+	<div id="page">
+		<aside id="aside" role="complementary" class="border js-fullheight">
+			<h1 id="logo"><a href="index.html"><img src="images/logo-colored.png"
 						alt="Free HTML5 Bootstrap Website Template"></a></h1>
-			<nav id="fh5co-main-menu" role="navigation">
+			<nav id="main-menu" role="navigation">
 				<ul>
-					<li class="fh5co-active"><a href="index.html">主页</a></li>
+					<li class="active"><a href="index.html">主页</a></li>
 					<li><a href="portfolio.html">照片</a></li>
 					<li><a href="about.html">关于</a></li>
 					<li><a href="contact.html">最近</a></li>
@@ -46,8 +46,8 @@
 			</nav>
 		</aside>
 
-		<div id="fh5co-main">
-			<div class="fh5co-gallery" id="app">
+		<div id="main">
+			<div class="gallery" id="app">
 				<a class="gallery-item" :href="item.href" v-for="item in arr">
 					<img :src="item.src">
 					<span class="overlay">
@@ -57,15 +57,15 @@
 				</a>
 			</div>
 
-			<div class="fh5co-narrow-content" id="app1">
-				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">小知识</h2>
+			<div class="narrow-content" id="app1">
+				<h2 class="heading animate-box" data-animate-effect="fadeInLeft">小知识</h2>
 				<div class="row">
 					<div class="col-md-6" v-for="item in list">
-						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
-							<div class="fh5co-icon">
+						<div class="feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="icon">
 								<i :class="item.class"></i>
 							</div>
-							<div class="fh5co-text">
+							<div class="text">
 								<h3>{{item.title}}</h3>
 								<p>{{item.text}}</p>
 							</div>
@@ -73,10 +73,8 @@
 					</div>
 				</div>
 			</div>
-
-
-			<div class="fh5co-testimonial" id="app2">
-				<div class="fh5co-narrow-content">
+			<div class="testimonial" id="app2">
+				<div class="narrow-content">
 					<div class="owl-carousel-fullwidth animate-box" data-animate-effect="fadeInLeft">
 						<div class="item" v-for="item in array">
 							<p class="text-center quote">&ldquo;{{item.text}}&rdquo;
@@ -86,41 +84,34 @@
 					</div>
 				</div>
 			</div>
-
-
-			<div class="fh5co-counters" style="background-image: url(https://demos.freehtml5.co/blend/images/hero.jpg);"
+			<div class="counters" style="background-image: url(https://demos.freehtml5.co/blend/images/hero.jpg);"
 				data-stellar-background-ratio="0.5" id="counter-animate">
-				<div class="fh5co-narrow-content animate-box">
+				<div class="narrow-content animate-box">
 					<div class="row" id="app3">
 						<div class="col-md-4 text-center" v-for="item in list">
-							<span class="fh5co-counter js-counter" :data-from="item.from" :data-to="item.to" data-speed="5000"
+							<span class="counter js-counter" :data-from="item.from" :data-to="item.to" data-speed="5000"
 								data-refresh-interval="50"></span>
-							<span class="fh5co-counter-label">{{item.id}}</span>
+							<span class="counter-label">{{item.id}}</span>
 						</div>
 					</div>
 				</div>
 			</div>
-
-
-			<div class="fh5co-narrow-content">
+			<div class="narrow-content">
 				<div class="row">
 					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-						<h1 class="fh5co-heading-colored">为何重视文化自信</h1>
+						<h1 class="heading-colored">为何重视文化自信</h1>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-						<p class="fh5co-lead">文化自信是一个民族、一个国家以及一个政党对自身文化价值的充分肯定和积极践行，
+						<p class="lead">文化自信是一个民族、一个国家以及一个政党对自身文化价值的充分肯定和积极践行，
 							并对其文化的生命力持有的坚定信心。</p>
 						<p><a href="http://cn.chinaculture.org/" class="btn btn-primary btn-outline">更多</a></p>
 					</div>
-
 				</div>
 			</div>
-
 		</div>
 	</div>
-
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
